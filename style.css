@@ -1,0 +1,132 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(#fc5e55, #fa4083);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+}
+
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.cards1 {
+  background-image: url(Images/image-background-card1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.226);
+}
+
+.cards2 {
+  background-image: url(Images/image-background-card2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.226);
+}
+
+.cards3 {
+  background-image: url(Images/image-background-card3.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.226);
+}
+
+.cards1,
+.cards2,
+.cards3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+}
+
+.herobox1 {
+  flex: 2;
+  padding-right: 100px;
+}
+
+.herobox2 {
+  flex: 1;
+}
+
+h1 {
+  font-size: 3.25rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1rem;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.226);
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Playfair-Display", serif;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.cards p {
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  margin: 10px 30px 20px 30px;
+}
+
+i {
+  font-size: 100px;
+}
+
+.cards a {
+  color: white;
+  text-decoration: none;
+}
+
+.mybutton {
+  background-color: white;
+  color: #fa4083;
+  font-family: "Playfair-Display", sans-serif;
+  padding: 11px 25px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.226);
+}
+
+a.mybutton {
+  display: inline-block;
+  margin-top: 10px;
+}
