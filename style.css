@@ -1,5 +1,4 @@
 html {
-  height: 100%;
 }
 
 body {
@@ -127,6 +126,11 @@ i {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.226);
 }
 
+.mybutton:hover {
+  background-color: rgb(10, 131, 10);
+  transition-duration: 2s;
+}
+
 a.mybutton {
   display: inline-block;
   margin-top: 10px;
@@ -141,4 +145,30 @@ nav a.mybutton {
   padding: 11px 25px;
   font-family: "Playfair Display", sans-serif;
   margin-left: 5px;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.tbox {
+  width: 47%;
+  padding: 50px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+/*
+.tbox :last-child {
+  font-size: 0.85rem;
+  padding-left: 30px;
+}
+*/
+
+.tbox p:last-of-type {
+  font-size: 0.85rem;
+  padding-left: 30px;
 }
