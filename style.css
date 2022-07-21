@@ -203,19 +203,21 @@ nav a.mybutton {
   color: #fa4083;
 }
 
-/* .inputwrapper { 
+.inputwrapper {
   margin-bottom: 30px;
 }
 
-input[type=text], input[type=email], textarea {
-  padding: 12px 20px; 
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 12px 20px;
   width: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 0.85rem;
   box-sizing: border-box;
 }
 
-.newline { 
+.newline {
   display: block;
   margin-bottom: 10px;
 }
@@ -224,10 +226,10 @@ input[type=text], input[type=email], textarea {
   margin-right: 20px;
 }
 
-input[type=radio] {
+input[type="radio"] {
   margin-right: 10px;
 }
 
 form {
   margin: 40px 0px;
-}/*
+}

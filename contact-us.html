@@ -63,9 +63,64 @@
         </p>
 
         <form action="mail.php" method="POST">
-          <input type="text" name="name" id="name" />
-          <input type="email" name="email" id="email" />
-          <input type="submit" value="send" />
+          <div class="inputwrapper">
+            <label for="name" class="newline">First Name</label>
+            <input type="text" name="name" id="name" placeholder="First Name" />
+          </div>
+
+          <div class="inputwrapper">
+            <label for="email" class="newline">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="abc123@dmail.com"
+            />
+          </div>
+
+          <div class="inputwrapper">
+            <textarea
+              name="message"
+              id="message"
+              cols="100"
+              rows="5"
+              placeholder="Let us know what you think"
+            ></textarea>
+          </div>
+
+          <div class="inputwrapper">
+            <input
+              type="checkbox"
+              name="email_sub"
+              id="email_sub"
+              value="yes-sign-me-up"
+              checked
+            />
+            <label for="email_sub">Sign up for Email Newsletter</label>
+          </div>
+
+          <div class="inputwrapper">
+            <input type="radio" name="contact_pref" id="phone" /><label
+              for="phone"
+              class="margin-right-a"
+              >Phone</label
+            >
+            <input type="radio" name="contact_pref" id="email2" /><label
+              for="email2"
+              >Email</label
+            >
+          </div>
+
+          <div class="inputwrapper">
+            <select name="region" id="region">
+              <option value="Not-Chosen">Choose Region</option>
+              <option value="Accra">Accra</option>
+              <option value="Kumasi">Kumasi</option>
+              <option value="Takoradi">Takoradi</option>
+            </select>
+          </div>
+
+          <input type="submit" value="send" class="mybutton" />
         </form>
       </div>
 
