@@ -32,6 +32,11 @@ main {
   align-items: center;
 }
 
+.main2 {
+  min-height: 300px;
+  padding-top: 50px;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -146,7 +151,9 @@ nav a.mybutton {
   border: 1px solid white;
   padding: 11px 25px;
   font-family: "Playfair Display", sans-serif;
-  margin-left: 5px;
+  display: inline-block;
+  position: relative;
+  /* margin-left: 5px; */
 }
 
 .testimonials {
@@ -196,7 +203,7 @@ nav a.mybutton {
   color: #fa4083;
 }
 
-.inputwrapper {
+/* .inputwrapper { 
   margin-bottom: 30px;
 }
 
@@ -208,7 +215,7 @@ input[type=text], input[type=email], textarea {
   box-sizing: border-box;
 }
 
-/*.newline { 
+.newline { 
   display: block;
   margin-bottom: 10px;
 }
